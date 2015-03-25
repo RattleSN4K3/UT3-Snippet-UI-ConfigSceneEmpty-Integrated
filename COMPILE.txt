@@ -2,9 +2,9 @@ Compile:
   ut3 make
 
 Add menu:
-  Open package SnippetUIConfigEmpyInternal in Editor
-  Add a UIScene (type of EmptyConfigSceneUI)
-   Pagage: SnippetUIConfigEmpyInternal
+  Open package XUIConfigEmptyInt in Editor
+  Add a UIScene (type of XEmptyConfigIntUI)
+   Pagage: XUIConfigEmptyInt
    Group: 
    Name: Config
   Close and save
