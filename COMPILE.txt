@@ -1,0 +1,11 @@
+Compile:
+  ut3 make
+
+Add menu:
+  Open package SnippetUIConfigEmpyInternal in Editor
+  Add a UIScene (type of EmptyConfigSceneUI)
+   Pagage: SnippetUIConfigEmpyInternal
+   Group: 
+   Name: Config
+  Close and save
+

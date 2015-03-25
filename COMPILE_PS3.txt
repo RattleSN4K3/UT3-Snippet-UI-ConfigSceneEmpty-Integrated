@@ -1,0 +1,25 @@
+Use frontend ("Cooking" tab)
+  Packages: XUIConfigEmptyInt
+  Untick every option
+  Select Mod type "Mutator"
+
+
+Use this ini:
+[XEmptyConfigIntMutator UTUIDataProvider_Mutator]
+ClassName=XUIConfigEmptyInt.XEmptyConfigIntMutator
+FriendlyName=Test: Empty Config Scene
+Description=Test mutator for an integrated config scene (but without any content)
+GroupNames=
+UIConfigScene=XUIConfigEmptyInt.Config
+bStandaloneOnly=False
+BitValue=0
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[LoadForAllGameTypes]
+Package=XUIConfigEmptyInt
+
+[Engine.PackagesToFullyLoadForDLC]
+MapName=UTFrontend
+Package=XUIConfigEmptyInt
